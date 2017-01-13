@@ -5,9 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "predb": "rm kanta.sqlite3",
-    "db": "sqlite3 kanta.sqlite3 < db.sql",
-    "start": "nodemon --exec babel-node $npm_package_main"
+    "db": "sqlite3 kanta.sqlite3",
+    "start": "nodemon --exec babel-node src/index.js"
   },
   "author": "",
   "license": "MIT",
